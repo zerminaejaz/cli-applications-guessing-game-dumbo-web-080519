@@ -9,6 +9,8 @@ def run_guessing_game
   elsif users_guess.to_i != random_number
     print "Sorry! The computer guessed #{random_number}."
   else
-    print "Goodbye!"
+    if users_guess == "exit"
+      print "Goodbye!"
     end
+  end
 end
