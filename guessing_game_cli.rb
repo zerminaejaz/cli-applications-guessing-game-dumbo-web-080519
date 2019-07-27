@@ -3,6 +3,6 @@ def run_guessing_game
   prompt = puts "Guess a number"
   users_guess= get.chomp!
   if(users_guess == random_number)
-    print ""
+    print "You guessed the correct number!"
 end
 
