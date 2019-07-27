@@ -5,7 +5,7 @@ def run_guessing_game
   
   
   
-  if users_guess == random_number
+  if users_guess == random_number.to_i
     print "You guessed the correct number!"
   elseif users_guess == "exit"
     print "Goodbye!"
