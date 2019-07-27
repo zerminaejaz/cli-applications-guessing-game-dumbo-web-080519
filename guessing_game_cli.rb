@@ -4,5 +4,7 @@ def run_guessing_game
   users_guess= get.chomp!
   if(users_guess == random_number)
     print "You guessed the correct number!"
+  elseif( users_guess != random_number)
+    print 
 end
 
